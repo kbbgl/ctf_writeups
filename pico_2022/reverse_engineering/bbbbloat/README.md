@@ -23,9 +23,9 @@ Reading symbols from bbbbloat...
 (No debugging symbols found in bbbbloat)
 
 (gdb) info file
-Symbols from "/home/kobbi/boostnote/wh/ctf/pico_2022/reverse_engineering/bbbbloat/bbbbloat".
+Symbols from "bbbbloat".
 Local exec file:
-        `/home/kobbi/boostnote/wh/ctf/pico_2022/reverse_engineering/bbbbloat/bbbbloat', file type elf64-x86-64.
+        `bbbbloat', file type elf64-x86-64.
         Entry point: 0x555555555160
 
 (gdb) b *0x555555555160

@@ -20,7 +20,7 @@ a[68]+a[81]+a[94]+a[66]+a[78]+a[81]+a[81]+a[68]+a[66]+a[83]+\
 a[94]+a[79]+a[64]+a[82]+a[82]+a[86]+a[78]+a[81]+a[67]+a[94]+\
 a[69]+a[78]+a[81]+a[94]+a[69]+a[75]+a[64]+a[70]+a[25]+a[94])
 def arg132():
-  return open('/home/kobbi/boostnote/wh/ctf/pico_2022/reverse_engineering/bloat/flag.txt.enc', 'rb').read()
+  return open('flag.txt.enc', 'rb').read()
 def arg112():
   print(a[54]+a[68]+a[75]+a[66]+a[78]+a[76]+a[68]+a[94]+a[65]+a[64]+a[66]+\
 a[74]+a[13]+a[13]+a[13]+a[94]+a[88]+a[78]+a[84]+a[81]+a[94]+a[69]+\
