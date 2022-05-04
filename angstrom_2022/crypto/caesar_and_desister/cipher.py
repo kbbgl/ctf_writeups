@@ -46,8 +46,7 @@ try:
             decrypted_letter_index = decrypted_letter_index % len(ALPHABET)
 
         decrypted_letter = ALPHABET[decrypted_letter_index]
-
-        # decrypted_letter = chr(distance + ord(letter_flag))
+        
         print(f"'{letter_flag}' + {distance} => {decrypted_letter}")
         flag += decrypted_letter
 
