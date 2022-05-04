@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cipher",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["sulx{klgh_jayzl_lzwjw_ujqhlgyjshzwj_kume}"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
