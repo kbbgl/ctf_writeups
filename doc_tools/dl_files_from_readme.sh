@@ -20,4 +20,4 @@ readme_dir=$(dirname $readme)
 
 echo "Files will be downloaded to '$readme_dir'"
 
-awk -F'[()]' '{print $2}'  $readme | sed '/^$/d' | while read -r url; do echo "downloading $url..."; wget $url -P $readme_dir; done
+awk -F'[()]' '{print $2}'  $readme | sed '/^$/d' | while read -r url; do echo "downloading $url..."; wget $url --quiet -P $readme_dir; done
