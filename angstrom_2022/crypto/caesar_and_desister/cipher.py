@@ -29,18 +29,8 @@ def get_char_distance(c1: str, c2: str):
 
 try:
     encrypted = sys.argv[1]
-    print(f"Trying to decipher {encrypted}...")
-
-    # for i in range(4):
-    #     letter_prefix = FLAG_PREFIX[i]
-    #     letter_encrypted = encrypted[i]
-
-    #     distance = get_char_distance(letter_encrypted, letter_prefix)
-    #     print(f"'{letter_encrypted}' => '{letter_prefix}': {distance}")
 
     distance = get_char_distance(encrypted[0], FLAG_PREFIX[0])
-
-    # encrypted_flag = encrypted[encrypted.find("{") + 1: encrypted.find("}")]
 
     flag = ""
     for i in range(len(encrypted)):
